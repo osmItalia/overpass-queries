@@ -30,9 +30,9 @@ query overpass non organizzate per argomento
   <print mode="skeleton" order="quadtile"/>
 </osm-script>
  ~~~
- Pavia è definita da 3600044383 ovvero 3600000000 + 44383. Dove 44383 è l'ID della [relation](https://www.openstreetmap.org/relation/44383) che racchide il Comune.
+ Pavia è definita da 3600044383 ovvero 3600000000 + 44383. Dove 44383 è l'ID della [relation](https://www.openstreetmap.org/relation/44383) che racchiude il Comune.
 
- 2. Metodo alternativo con sintassi compatta (in questo caso estra i civici nel comune di Magherno
+ 2. Metodo alternativo con sintassi compatta (in questo caso estrae i civici nel comune di Magherno
  
  ~~~xml
  [out:json][timeout:25];
