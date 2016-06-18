@@ -47,9 +47,7 @@ query overpass non organizzate per argomento
 
  ~~~xml
  area(3600044191)->.searchArea;
-(node["boundary"="administrative"](area.searchArea); 
-way["boundary"="administrative"](area.searchArea);
-relation["boundary"="administrative"](area.searchArea););
+(relation["boundary"="administrative"][admin_level=8](area.searchArea););
 out meta;
 >;
 out meta qt; 
