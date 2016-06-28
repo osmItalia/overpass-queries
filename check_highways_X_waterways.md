@@ -2,14 +2,18 @@
 
 Serve per verificare la presenza dei nodi all'incrocio tra una
 strada e un corso d'acqua.
+
 Un buffer di 15 metri permette di selezionare tutti i corsi d'acqua in 
-prossimita' delle tipologie di strade selezionate e salva il tutto nel set ".water"
+prossimita' delle tipologie di strade selezionate e salva il tutto nel set ".water".
+
 Successivamente all'interno di questo set vengono cercati tutti i culvert, i ford 
 e i bridge salvandoli in un set specifico per ciascuna tipologia (.culvert, .ford, .bridge).
+
 Infine viene effettuata una differenza tra i corsi d'acqua presenti in prossimita di una strada 
 e tutti i corsi d'acqua che presentano un culvert, un ford o un bridge.
+
 Quello che ne dovrebbe risultare sono i corsi d'acqua che non presentano nodi di intersezione 
-con le strade e quelli che pur presentando un nodo senza tags specifici che 
+con le strade e quelli che pur presentando un nodo sono senza tags specifici che 
 indichino il tipo di intersezione.
   
 
