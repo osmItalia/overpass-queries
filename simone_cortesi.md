@@ -1,4 +1,4 @@
-query overpass non organizzate per argomento
+query overpass non ancora organizzate per argomento
 ============================================
 
 
@@ -53,13 +53,13 @@ out meta;
 out meta qt; 
 ~~~
 
- 4. il confine amministrativo del Comune di Campospinoso
+ 4. tutti gli oggetti node all'interno del confine della relation Italia che abbiano chiave wikipedia
 
-~~~xml
-[out:json][timeout:250];
+ ~~~xml
+ [out:json][timeout:250];
 area(3600365331)->.searchArea;
 (
-  node["wikidata"](area.searchArea)
+  node["wikipedia"](area.searchArea)
 );
 out body;
 >;
