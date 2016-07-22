@@ -52,3 +52,16 @@ out meta;
 >;
 out meta qt; 
 ~~~
+
+ 4. il confine amministrativo del Comune di Campospinoso
+
+~~~xml
+[out:json][timeout:250];
+area(3600365331)->.searchArea;
+(
+  node["wikidata"](area.searchArea)
+);
+out body;
+>;
+out skel qt;
+~~~
